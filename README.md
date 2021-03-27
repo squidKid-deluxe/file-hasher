@@ -6,4 +6,4 @@ File hasher takes command-line arguments, for example, to run `pylint <filename>
 
 `python3 file_hasher.py pylint file py`
 
-The script concurrently checks if any *.[extention] files in the working directory have changed, and if so, runs the [command] on each one individually.
+The script concurrently checks if any `*.[extention]` files in the working directory have changed, and if so, runs the `[command]` on each one individually.
