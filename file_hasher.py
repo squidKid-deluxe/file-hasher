@@ -62,7 +62,7 @@ if __name__ == "__main__":
             file_path += " "
             if file_path[-4:-1:1] == "." + str(extension):
                 children[child_number] = Process(
-                    target=start, args=(file_path, command)
+                    target=start, args=(file_path.rstrip(" "), command)
                 )
                 children[child_number].start()
     while True:
